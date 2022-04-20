@@ -1,5 +1,8 @@
 ﻿# Project exclude paths
 /venv/
-/documents_files
+documents_files
 .html
 DataUser.py
+*.log
+*.html
+*.idea

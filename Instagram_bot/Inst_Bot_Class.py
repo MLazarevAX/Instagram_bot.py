@@ -3,7 +3,6 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 import random
-from DataUser import login, password
 from selenium.common.exceptions import NoSuchElementException
 import requests
 import os
@@ -244,7 +243,4 @@ class InstagramBot:
                 file.write(i + "\n")
 
 
-my_bot = InstagramBot(login, password)
-my_bot.login_acc()
-# my_bot.Like_Foto("serfing")
-my_bot.download_userpage_content('https://www.instagram.com/juliette/')
+
